@@ -8,15 +8,16 @@ public class Nomor1 {
         int jamlembur = 0;
         double honorlembur = 0 ;
         double totallembur = 0;
-;
+
         jamlembur = scanner.nextInt();
 
         if (jamlembur > 0  && jamlembur <= 16) {
 
                 honorlembur = jamlembur * 10000;
         }
-        else if(jamlembur >  16){
-            honorlembur =  jamlembur * 15000;
+        else if(jamlembur >=  17){
+            honorlembur =  jamlembur * 10000 +  (jamlembur - 16) * 5000 ;
+
 
         }
         else {
@@ -26,10 +27,22 @@ public class Nomor1 {
         totallembur += honorlembur;
 
 
-        //System.out.println("Total jam lembur:  " + jamlembur);
-        System.out.println(totallembur);
+        System.out.println( totallembur);
 
 
         scanner.close();
     }
 }
+
+
+/*Pseudocode
+ * deklarasi:
+ * var jamlembur;integer
+ * var honorlembur,totallembur;double
+ * 
+ * algoritma:
+ * if(jamlembur > 0 && <= 16)Then
+ *       honorlembur = jamlembur * 10000;
+ * else if(jamlembur > 16)
+
+ */
