@@ -27,6 +27,7 @@ public class Nomor1 {
         totallembur += honorlembur;
 
 
+        // System.out.println("Total jam lembur:  " + jamlembur);
         System.out.println( totallembur);
 
 
@@ -43,6 +44,14 @@ public class Nomor1 {
  * algoritma:
  * if(jamlembur > 0 && <= 16)Then
  *       honorlembur = jamlembur * 10000;
- * else if(jamlembur > 16)
+ * 
+ *  else if(jamlembur > 16)Then
+ *       honorlembur = jamlembur  * 10000 + (jamlembur - 16) * 5000 ;
+ * END if
+ * 
+ * totallembur += honorlembur
+ * 
+ * print(totallembur)
+
 
  */
