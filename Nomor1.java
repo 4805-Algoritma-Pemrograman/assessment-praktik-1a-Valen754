@@ -26,7 +26,7 @@ public class Nomor1 {
         totallembur += honorlembur;
 
 
-        System.out.println("Total jam lembur:  " + jamlembur);
+        //System.out.println("Total jam lembur:  " + jamlembur);
         System.out.println("Total honor lembur:  " + totallembur);
 
 
