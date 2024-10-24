@@ -6,8 +6,8 @@ public class Nomor1 {
         Scanner scanner = new Scanner(System.in);
 
         int jamlembur = 0;
-        int honorlembur = 0 ;
-        int totallembur = 0;
+        double honorlembur = 0 ;
+        double totallembur = 0;
 
         System.out.println("Masukkan  jam lembur : ");
         jamlembur = scanner.nextInt();
