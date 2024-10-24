@@ -27,7 +27,7 @@ public class Nomor1 {
 
 
         //System.out.println("Total jam lembur:  " + jamlembur);
-        System.out.println("Total honor lembur:  " + totallembur);
+        System.out.println(totallembur);
 
 
         scanner.close();
