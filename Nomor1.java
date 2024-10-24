@@ -8,8 +8,7 @@ public class Nomor1 {
         int jamlembur = 0;
         double honorlembur = 0 ;
         double totallembur = 0;
-
-        System.out.println("Masukkan  jam lembur : ");
+;
         jamlembur = scanner.nextInt();
 
         if (jamlembur > 0  && jamlembur <= 16) {
